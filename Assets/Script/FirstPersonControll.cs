@@ -15,7 +15,7 @@ public class FirstPersonController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         playerCamera = GetComponentInChildren<Camera>();
-        Cursor.lockState = CursorLockMode.Locked;
+       // Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
