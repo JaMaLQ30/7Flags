@@ -14,6 +14,6 @@ public class Asomro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0,0, spinSpeed * Time.deltaTime);
+        transform.Rotate(0,0, -spinSpeed * Time.deltaTime);
     }
 }
