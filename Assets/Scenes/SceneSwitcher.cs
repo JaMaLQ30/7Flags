@@ -1,0 +1,12 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneSwitcher : MonoBehaviour
+{
+    public string targetSceneName; // «”„ «·”Ì‰ «·–Ì  —€» ›Ì «·«‰ ﬁ«· ≈·ÌÂ
+
+    private void OnMouseDown()
+    {
+        SceneManager.LoadScene(targetSceneName); //  Õ„Ì· «·”Ì‰ «·ÃœÌœ
+    }
+}

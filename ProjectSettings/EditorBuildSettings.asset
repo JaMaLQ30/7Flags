@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PastLearning.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/GAME1.unity
+    guid: 29d9e8c30cd741d48879deaebf0023cc
   m_configObjects: {}
