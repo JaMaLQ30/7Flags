@@ -10,12 +10,15 @@ public class FirstPersonController : MonoBehaviour
     private Rigidbody rb;
     private Camera playerCamera;
     private float verticalRotation = 0f;
+    private AudioSource audioSource;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         playerCamera = GetComponentInChildren<Camera>();
-       // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -51,6 +54,8 @@ public class FirstPersonController : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
+
+   
     }
 
     private bool IsGrounded()
@@ -65,4 +70,7 @@ public class FirstPersonController : MonoBehaviour
 
         return false;
     }
+
+    
+
 }

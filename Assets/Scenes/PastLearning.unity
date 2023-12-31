@@ -10371,7 +10371,7 @@ Transform:
   m_GameObject: {fileID: 905580960}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.86704, y: -35.44413, z: 25.304428}
+  m_LocalPosition: {x: 12.57, y: -45, z: 25.304428}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17375,8 +17375,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1471637319}
+  - component: {fileID: 1471637320}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: StepSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17397,6 +17398,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1471637320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471637318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa29ee64fad4b8149b2a7cc269570712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSound: {fileID: 8300000, guid: b0a195e05bb6e5049a9ad7681ac206cf, type: 3}
 --- !u!4 &1492697472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: eff2461130639c9438a6bac2bea4aee9,
