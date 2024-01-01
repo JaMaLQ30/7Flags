@@ -1,0 +1,11 @@
+Model Information:
+* title:	City
+* source:	https://sketchfab.com/3d-models/city-715d6ef0f2e24fb19272b9872ad4d41e
+* author:	Computer Geek (https://sketchfab.com/hqassests)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "City" (https://sketchfab.com/3d-models/city-715d6ef0f2e24fb19272b9872ad4d41e) by Computer Geek (https://sketchfab.com/hqassests) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
