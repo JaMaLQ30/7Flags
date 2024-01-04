@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!114 &-5173755016187568259
+=======
+--- !u!114 &-2379853114968098916
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -38,7 +42,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
+<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: 2456b070c0fa1b24f8a93adcc38371c0, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: 90f2a7ce5abbdd144b15dfd281961be1, type: 3}
+>>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -62,7 +70,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: 2456b070c0fa1b24f8a93adcc38371c0, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: 90f2a7ce5abbdd144b15dfd281961be1, type: 3}
+>>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
