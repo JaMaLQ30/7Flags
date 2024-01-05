@@ -15,10 +15,10 @@ public class NweWorkConnect : MonoBehaviourPunCallbacks
     // Update is called once per frame
     public override void OnConnectedToMaster()
     {
-<<<<<<< Updated upstream
+
         SceneManager.LoadScene(0);
-=======
+
         SceneManager.LoadScene(2);
->>>>>>> Stashed changes
+
     }
 }
